@@ -1,0 +1,1127 @@
+ 
+@font-face {
+    font-family: 'Okula Hayir Soft';
+    src: url('../fonts/OkulaHayirSoft.woff2') format('woff2'),
+        url('../fonts/OkulaHayirSoft.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/* Default CSS */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, span, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   background: transparent;
+}
+body{
+  font-family: 'Inter', sans-serif;
+}
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+button{
+  outline: none !important;
+}
+input
+{
+    outline:none !important;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  margin:0;
+  padding:0;
+}
+input, button, textarea, select{
+  outline: none;
+}
+.btn.focus, .btn:focus {
+  outline: none;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+ul{
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+a{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+
+.share_text h2 span,
+.section_title h2 span{
+	position: relative;
+}
+
+
+.share_text h2 span img {
+	position: absolute;
+	bottom: -8px;
+	right: 15px;
+	width: 100%;
+}
+
+.section_title h2 {
+	color: #FFF;
+	font-family: 'Okula Hayir Soft';
+	font-size: 75px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 120.7%;
+	text-transform: uppercase; 
+}
+
+.section_title { 
+	margin-bottom: 50px;
+	text-align: center;
+}
+p {
+	color: #FFF;
+	font-family: 'Manrope', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 28px;
+	letter-spacing: -0.36px;
+	opacity: 0.699999988079071; 
+}
+
+.section_padding{
+	padding: 100px 0;
+}
+
+
+/********** Start Hedaer Area CSS  *************/
+
+.header_area_main {
+	background: var(--main, #8B04FB);
+	padding: 35px 0;
+	border-bottom: 1px solid #aeaeae;
+}
+
+.logo a span {
+	color: #FFF;
+	font-family: 'Okula Hayir Soft';
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 120.7%;
+	text-transform: uppercase;
+}
+
+.logo a img { 
+	width: 50px;
+	height: 50px;
+}
+
+.logo a {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}
+
+.header_box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu ul li a {
+	color: #FFF;
+	font-family: 'Manrope', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: -0.32px;
+}
+
+.menu ul li a.active, 
+.menu ul li a:hover { 
+	font-weight: 700; 
+}
+
+.menu ul {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+
+.header_social ul {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.header_social ul li img {
+	width: 40px; 
+	height: 40px;
+}
+
+.bars_menu {
+	display: none !important;
+}
+
+/********** End Hedaer Area CSS  *************/ 
+
+/********** Start Banner Area CSS  *************/ 
+
+.banner_area {
+	background: var(--main, #8B04FB);
+	padding: 50px 0;
+}
+
+.banner_text h2 {
+	color: #FFF;
+	font-family: 'Okula Hayir Soft';
+	font-size: 70px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 120.7%;
+	text-transform: uppercase;
+}
+
+.banner_text p { 
+	margin: 10px 0 25px 0;
+}
+
+.btn_1 {
+	border-radius: 5px;
+	background: var(--yellow, #FAE700);
+	border: none;
+	padding: 20px 24px;
+	color: var(--black, #1C1C1C);
+	font-family: Manrope;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 28px;
+	transition: 0.3s;
+}
+
+.btn_1 a {
+	color: var(--black, #1C1C1C);
+}
+.btn_1:hover{
+ 	opacity: 0.83;
+}
+
+/********** End Banner Area CSS  *************/ 
+
+/********** Start Feature Area CSS  *************/ 
+.featear_area { 
+	background: #140529;
+}
+
+.feather_logo {
+	text-align: center;
+}
+.feather_logo img {
+	width: 100%;
+}
+/********** End Feature Area CSS  *************/ 
+
+/********** Start About Area CSS  *************/ 
+.about_area { 
+	background: var(--main, #8B04FB);
+}
+.about_left h3 {
+	color: #FFF;
+	font-family: Okula Hayir Soft;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 120.7%;
+	text-transform: uppercase;
+}
+.about_left p {
+	margin: 5px 0 30px 0;
+}
+
+
+/* ************The button & social icons styles***********  */
+
+.button-and-icons-flex{
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+/* ************THE SOCIAL ICONS****** */
+
+.social-icons{
+	display: flex;
+	gap: 1rem;
+}
+
+.social-icons .link-icon{
+	font-size: 1.5rem;
+	color: #fff;
+	border: 2px solid #ffc0cb;
+	border-radius: 50%;
+	padding: .4rem;
+	transition: .5s;
+}
+
+
+.social-icons .link-icon:hover{
+transform: scale(1.1);
+}
+/********** End About Area CSS  *************/ 
+
+/********** Start Buy Area CSS  *************/ 
+.buy_area { 
+	background: #0E041E;
+}
+
+.buy_single {
+	border-radius: 10px;
+	background: linear-gradient(134deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.00) 100%);
+	backdrop-filter: blur(125.5px);
+	padding: 50px 18px;
+	text-align: center;
+	height: 100%;
+}
+
+.buy_single:nth-child(2) { 
+	background: linear-gradient(134deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.00) 100%);  
+}
+
+.buy_single h3 {
+	color: #FFF;
+	font-family: Okula Hayir Soft;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	background: #8B04FB;
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.buy_single h4 {
+	color: #FFF;
+	font-family: Okula Hayir Soft;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin: 24px 0 17px 0;
+}
+
+.buy_single p {
+	color: #FFF;
+	text-align: center;
+	font-family: Manrope;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+
+/********** End Buy Area CSS  *************/ 
+
+/********** Start Token Area CSS  *************/
+
+.token_area {
+	background: #8905F6;
+	padding: 100px 0 0 0;
+}
+
+.token_img img {
+	width: 100%;
+} 
+
+.token_area .section_title h2 img {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+}
+
+
+/********** End Token Area CSS  *************/ 
+
+/********** Start Roadmap Area CSS  *************/ 
+.roadmap_area { 
+	background: #0F081C;
+}
+
+.roadmap {
+	text-align: center;
+	position: relative;
+}
+
+.roadmap_single { 
+	width: 430px;
+	text-align: left;
+}
+
+.roadmap_text h3,
+.roadmap_single h3 {
+	color: var(--main, #8B04FB);
+	font-family: Okula Hayir Soft;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 32px;
+}
+
+.roadmap_text p,
+.roadmap_single p {
+	color: #FFF;
+	font-family: Manrope;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 25px;
+	margin-top: 9px;
+}
+
+.roadmap_single.roadmap_single1 {
+	position: absolute;
+	top: 13px;
+	right: 0;
+	left: 630px;
+	margin: 0 auto;
+}
+
+.roadmap_single.roadmap_single2 {
+	position: absolute;
+	top: 187px;
+	right: 630px;
+	left: 0;
+	margin: 0 auto;
+}
+
+.roadmap_single.roadmap_single3 {
+	position: absolute;
+	top: 354px;
+	right: 0;
+	left: 630px;
+	margin: 0 auto;
+}
+
+.roadmap_text {
+	margin-top: 21px;
+}
+
+.roadmap_yellow{
+	color: #FAE700 !important;
+}
+
+/********** End Roadmap Area CSS  *************/ 
+
+/********** Start Tokenomics Area CSS  *************/ 
+
+.tokenomics_area {
+	background: #0F081C;
+	padding-bottom: 120px;
+}
+
+.tokenomics {
+	border-radius: 48px;
+	background: var(--fill, linear-gradient(134deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.00) 100%));
+	backdrop-filter: blur(125.5px);
+	padding: 75px;
+}
+
+.tokenomics_img {
+	text-align: center;
+} 
+
+/********** End Tokenomics Area CSS  *************/ 
+
+/********** End Stage Area CSS  *************/ 
+.stage_area {
+	background: #8B06FB; 
+}
+
+.single-stage {
+	border-radius: 10px;
+	background: linear-gradient(134deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.00) 100%);
+	backdrop-filter: blur(125.5px);
+	padding: 60px 25px 44px 25px;
+	text-align: center;
+	position: relative;
+	margin-bottom: 25px;
+	z-index: 9;
+}
+
+.single-stage h4 {
+	color: #FFF;
+	text-align: center;
+	font-family: Okula Hayir Soft;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 32px;
+	padding-bottom: 25px;
+	margin-bottom: 25px;
+	border-bottom: 1px solid #fff;
+}
+
+.single-stage ul li p {
+	color: #FFF;
+	text-align: center;
+	font-family: 'Manrope', sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 25px;
+}
+
+.single-stage ul li {
+	margin-bottom: 10px;
+}
+
+.stage_btn {
+	width: 313px;
+	height: 44px;
+	border-radius: 200px;
+	background: var(--yellow, #FAE700);
+	color: var(--black, #1C1C1C);
+	text-align: center;
+	font-family: Okula Hayir Soft;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 32px;
+	border: none;
+	transition: 0.3s;
+	position: absolute;
+	top: -20px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+.stage_btn:hover{
+	opacity: 0.83;
+}
+
+.stage_box{
+	position: relative;
+}
+
+.dot1 {
+	position: absolute;
+	top: 189px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	text-align: center; 
+	z-index: 8;
+}
+.dot2 {
+	position: absolute;
+	top: 45%;
+	right: 307px;
+}
+
+.dot3 {
+	position: absolute;
+	bottom: 148px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	text-align: center;
+	z-index: 8;
+}
+
+/********** End Stage Area CSS  *************/ 
+
+/********** Start Question Area CSS  *************/
+.question_area{ 
+	background: #06040F;
+} 
+
+
+/* test  */
+
+ #accordion-container {
+	list-style-type: none;
+	padding: 0;
+	width: 90%;
+	margin: 30px auto;
+	display: block;
+  }
+  #accordion-item {
+	border-radius: 10px;
+	background: var(--fill, linear-gradient(134deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.00) 100%));
+	/* vv */
+	backdrop-filter: blur(125.5px);  
+}
+  #accordion-container .opened { 
+	background: var(--main, #8B04FB); 
+}
+#accordion-container .accordion-item {
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background: var(--fill, linear-gradient(134deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.00) 100%));
+	backdrop-filter: blur(125.5px);
+}
+#accordion-container .opened .accordion-icon {
+	background: transparent;
+}
+   #accordion-container .accordion-item {
+	display: flex;
+	flex-direction: column;
+  }
+   #accordion-container .accordion-item .accordion-head {
+	display: flex;
+  }
+   #accordion-container .accordion-item .accordion-head .accordion-icon {
+	border-radius: 50%;
+	width: 38px;
+	height: 34px;
+	margin-left: 10px;
+	position: relative;
+	align-self: center;
+	display: flex;
+  }
+   #accordion-container .accordion-item .accordion-head .accordion-icon span {
+	display: block;
+	background-color: #fff;
+	width: 15px;
+	height: 2px;
+	border-radius: 5px;
+	position: absolute;
+	top: 50%;
+	left: calc(48% - 15px / 2);
+	transition: transform 0.2s;
+  }
+   #accordion-container .accordion-item .accordion-head .accordion-icon span:nth-of-type(2) {
+	transform: rotate(-90deg);
+  }
+   #accordion-container .accordion-item .accordion-head .accordion-icon span:nth-of-type(2).open-icon {
+	transform: rotate(-180deg);
+  }
+   #accordion-container .accordion-item .accordion-head button {
+	border: none;
+	background: none;
+	font-size: 0.98rem;
+	font-weight: 600; 
+	width: 100%;
+	padding: 20px 0 20px 15px;
+	text-align: left;
+  }
+   #accordion-container .accordion-item .accordion-head + div {
+	padding: 62px;
+	padding-top: 0;
+	font-family: Ariel, sans-serif;
+	letter-spacing: 0.02rem;
+  }
+   #accordion-container .accordion-item .accordion-head + div #blog-link {
+	background: #6b62ff;
+	border: none;
+	padding: 10px 30px;
+	margin: 15px 0;
+	font-weight: 600;
+	letter-spacing: 0.08rem;
+	border-radius: 32px;
+  }
+   #accordion-container .accordion-item .accordion-head + div #blog-link:hover {
+	cursor: pointer;
+  }
+   #accordion-container .accordion-item .accordion-head + div #blog-link a {
+	color: white;
+	text-decoration: none;
+  }
+   #accordion-container .accordion-item .accordion-head:hover * {
+	cursor: pointer;
+  }
+
+  .accordion-title {
+	color: #FFF;
+	font-family: 'Okula Hayir Soft';
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 130%;
+	opacity: 0.8799999952316284;
+}
+
+.accordion-item p {
+	color: #FFF;	
+	font-family: 'Manrope', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+/********** End Question Area CSS  *************/ 
+
+/********** Start Choose Area CSS  *************/ 
+.choose_area{
+	padding: 0 0 120px 0;
+	background: #06040F;
+} 
+
+.why_choose_single {
+	position: relative;
+	border-radius: 10px;
+	background: linear-gradient(134deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.00) 100%);
+	backdrop-filter: blur(125.5px);
+	padding: 85px 30px 43px 30px;
+}
+
+.why_choose_single ul li p {
+	color: #FFF;
+	font-family: 'Okula Hayir Soft';
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 32px;
+	opacity: 1;
+}
+
+.why_choose_single ul li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #eee;
+}
+.why_choose_single ul li:last-child{
+	border-bottom: 1px solid transparent;
+
+}
+/********** End Choose Area CSS  *************/ 
+
+/********** Start Share Area CSS  *************/ 
+.share_area{  
+	padding: 0 0 120px 0;
+	background: #06040F;
+}
+.share_box {
+	background: #8904F8;
+	border-radius: 10px;
+	padding: 26px 60px;
+}
+.share_text h2 {
+	color: #FFF;
+	font-family: 'Okula Hayir Soft';
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 120.7%;
+	text-transform: uppercase;
+	width: 90%;
+	margin-bottom: 15px;
+}
+.share_img img {
+	width: 100%;
+}
+/********** End Share Area CSS  *************/ 
+
+/********** Start Footer Area CSS  *************/ 
+.footer_area{
+	background: #8904F7;
+	padding: 40px 0;
+}
+
+.header_social a,
+.footer_menu a,
+.footer_left p {
+	color: #FFF;
+	font-family: 'Manrope', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	margin-bottom: 35px;
+}
+.footer_menu a{
+	font-weight: 700;
+	text-decoration: underline;
+	transition: 0.3s;
+}
+
+.footer_menu a:hover{
+	opacity: 0.83;
+}
+
+.footer_menu {
+	display: flex;
+	gap: 30px;
+}
+
+.footer_short {
+	color: #FFF;
+	font-family: 'Manrope', sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+.header_social a{
+	margin-top: 10px;
+}
+/********** End Footer Area CSS  *************/ 
+
+
+.mobile_hide{
+	display: block;
+}
+.desktop_hide{
+	display: none;
+}
+
+.bars_menu i{
+	font-size: 28px;
+	color: #fff;
+}
+
+
+
+
+
+
+
+/* 
+
+	font-family: 'Manrope', sans-serif;
+	font-family: 'Okula Hayir Soft';
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* card css  */
+
+.monkey_card {
+	width: 528px;
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.63);
+	background: var(--main, #8B04FB);
+	padding: 45px 27px 32px 27px;
+	margin: 20px auto;
+}
+
+#countdown ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	gap: 6px;
+}
+
+#countdown ul li {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+#countdown ul li p {
+	color: #FFF;
+	font-size: 40px;
+	font-family: Inter;
+	font-weight: 900;
+	line-height: 28px;
+	letter-spacing: 4px;
+	text-align: center;
+}
+
+.count_name {
+	color: #FFF;
+	font-size: 13px;
+	font-family: Inter;
+	font-weight: 500;
+	line-height: 20px;
+	letter-spacing: 0px;
+}  
+
+
+/* card progress  */
+ 
+
+.bar {
+	position:relative;
+  float:left; 
+  height:100%; 
+	background: #FAE700;
+}
+
+.percent {
+	position:absolute;
+  top:50%;
+  left:50%;
+  -webkit-transform:translate(-50%,-50%);
+      -ms-transform:translate(-50%,-50%);
+          transform:translate(-50%,-50%);
+  margin:0; 
+	color: #8B04FB;
+	font-size: 12px; 
+	font-weight: 600;
+	line-height: 20px;
+}
+
+.monkey_progress .progress {
+	width: 90%;
+	margin: 10px auto;
+	border-radius: 20px; 
+	background: #B45CFC;
+}
+ 
+.monekey_info p {
+	color: #FFF;
+	font-size: 13px; 
+	font-weight: 500;
+	line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.monekey_info {
+	margin: 18px 0 30px 0;
+	text-align: center;
+}
+
+.monkey_form_title p {
+	color: #FFF;
+	font-size: 16px; 
+	font-weight: 700;
+	line-height: 28px;
+}
+
+.monkey_form_title span {
+	height: 1px;
+	background: #fff;
+  width: 24%;
+}
+
+.monkey_form_title {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+/* monkey tabs  */
+
+.monekey_button {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+  gap: 5px;
+  margin: 20px 0;
+}
+
+.monekey_button li button {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	gap: 8px;
+}
+
+.monekey_button li button {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	gap: 8px;
+	border-radius: 10px;
+	border: 1.5px solid rgba(0, 17, 51, 0.15);
+	background: #FFF;
+	padding: 10px 13px;
+	width: 100%;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.monekey_button li {
+	width: 100%;
+}
+
+.monekey_button li button p {
+	color: #A1A1A1;
+	font-size: 16px; 
+	font-weight: 500;
+	line-height: 22px;
+	text-transform: uppercase;
+}
+
+.monekey_button .active p {
+  color: #222223;
+}
+
+.monekey_button .active {
+  color: #222223;
+  border: 1.5px solid #222223; 
+}
+
+.from_input {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	background: #fff;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	border-radius: 8px;
+	margin-bottom: 25px;
+	height: 72px;
+}
+
+.from_input img {
+	border-left: 1px solid #ddd;
+}
+
+.form_group{
+  margin-left: 16px;
+}
+
+.form_group input {
+	color: var(--black, #222223);
+	font-size: 20px; 
+	font-weight: 800;
+	line-height: 27px;
+	width: 90%;
+	border: none;
+}
+
+.form_group label {
+	color: rgba(0, 17, 51, 0.60);
+	font-size: 14px;
+	font-family: Inter;
+	line-height: 20px;
+}
+
+.img_monkey {
+	width: 167px;
+	border-left: 1px solid #ddd;
+	height: 72px;
+	margin: 0 auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+
+.form_submit_btn button {
+	color: var(--main, #8B04FB);
+	text-align: center;
+	font-size: 16px;
+	font-family: Inter;
+	font-weight: 800;
+	line-height: 16px;
+	height: 66px;
+	width: 100%;
+	border-radius: 7px;
+	background: #FFF;
+	border: none;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.form_submit_btn button:hover{
+  opacity: 0.80;
+}
+
+.monkey_footer p {
+	color: #FFF; 
+	font-size: 14px;
+	font-family: Inter;
+	font-weight: 500;
+}
+
+.monkey_footer {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	gap: 5px;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin-top: 25px;
+}
+
+.monkey_form{
+  display: none;
+}
+
+.ETH{
+  display: block;
+}
+
+
+
